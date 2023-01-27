@@ -12,12 +12,11 @@ html{
     left: 30%;
     border-radius: 1rem;
     background-color: #f5f6fa;
-    border-style: outset;
+    border-style: 1rem outset black;
     /*box-shadow: 5px 5px 3px #f5f6fa;*/
     border: 0.2rem solid #2f3640;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: center;
-    
  }
 
  .container-AMZ > *:not(:first-child){
@@ -25,13 +24,14 @@ html{
  }
 
 .product-AMZ{
-    margin-top: 4vh;
+    margin-top: 3vh;
     object-fit: contain;
     width: 230px;
     height: 230px;
     background-color: transparent;
-    border-style: outset;
+    border-style: 1rem outset;
     border-radius: 1.5rem;
+    box-shadow: 0px 4px 3px 0.2px #2f3640;
     
 }
 
@@ -50,7 +50,6 @@ html{
     height: 60px;
     background-color: #ff9900;
     color: #fff;
-    margin-bottom: 20px;
     padding: 10px 20px;
     border-radius: 0.4rem;
     text-align: center;
@@ -73,4 +72,9 @@ html{
 
 .text-AMZ{
     text-justify: auto;
+}
+
+a{
+    margin: 0;
+    padding: 0;
 }
