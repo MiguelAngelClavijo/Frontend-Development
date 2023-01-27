@@ -1,0 +1,76 @@
+html{
+    font-family: 'Roboto';
+    background-color: #14140F;
+}
+
+.container-AMZ{
+    display: grid;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: outset;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    
+ }
+
+ .container-AMZ > *:not(:first-child){
+    justify-items: center;
+ }
+
+.product-AMZ{
+    margin-top: 4vh;
+    object-fit: contain;
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    border-style: outset;
+    border-radius: 1.5rem;
+    
+}
+
+.text-AMZ{
+    align-self: center;
+}
+
+.product-AMZ{
+    align-content: center;
+    justify-content: center;
+}
+
+.button-AMZ{
+    align-self: center;
+    width: 250px;
+    height: 60px;
+    background-color: #ff9900;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 0.4rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: transparent;
+    font-size: medium;
+}
+
+.button-AMZ:hover {
+    background-color: #ffb700;
+}
+
+.button-AMZ:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.text-AMZ{
+    text-justify: auto;
+}
